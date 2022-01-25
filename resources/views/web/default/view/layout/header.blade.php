@@ -92,7 +92,7 @@
                                     @if(isset($user) && isset($user['vendor']) && $user['vendor'] == 1)
                                         <div class="overlap-profile-viewer-info">
                                             <a href="/user/dashboard" class="dash-s2"><span>{{ !empty($user['category']['title']) ? $user['category']['title'] : 'General User' }}</span></a>
-                                            <a href="/user/dashboard" class="btn btn-danger">{{ trans('main.user_panel') }}</a>
+                                            <a href="/user/dashboard" class="btn btn-danger">{{ __('admin.admin_panel') }}</a>
                                         </div>
                                     @else
                                         <div class="overlap-profile-viewer-info">
